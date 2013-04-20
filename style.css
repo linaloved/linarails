@@ -1,0 +1,39 @@
+@import url(animate.css);
+
+html,body{
+height: 100%;
+width: 100%;	
+	
+	
+	}
+
+
+
+#container{
+	top: 50%;
+	left: 50%;
+	height: 480px;
+	width: 640px;
+	margin-top: 140px;
+	margin-left: 320px;
+	animation-name: bounceInDown;
+	animation-duration:1.5s;
+	animation-fill-mode: both;
+	animation-iteration-count:1;
+	
+	-webkit-animation-name: bounceInDown;
+	-webkit-animation-duration:1.5s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count:1;
+	
+	
+	-moz-animation-name: bounceInDown;
+	-moz-animation-duration:1.5s;
+	-moz-animation-fill-mode: both;
+	-moz-animation-iteration-count:1;
+	
+	
+	}
+	.gra{
+			background: -moz-liner-gradient(top , #1e5799 0%, #2989d8 50% , #207cca 51% , #7db9e8 100%);
+		}
